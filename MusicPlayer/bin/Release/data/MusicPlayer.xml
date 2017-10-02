@@ -1,0 +1,27 @@
+<Lists>
+  <Item name="默认列表">
+    <Item file="E:\主数据库\音乐\华晨宇 - 烟火里的尘埃.mp3" tag="File" />
+    <Item file="C:\Users\15010\Music\可米小子 - 青春纪念册.mp3" tag="File" />
+    <Item file="C:\Users\15010\Music\徐良、汪苏泷 - 后会无期.mp3" tag="File" />
+    <Item file="C:\Users\15010\Music\许巍 - 旅行.mp3" tag="File" />
+    <Item file="E:\主数据库\音乐\MINECRAFT STORE-BGM2.mp3" tag="File" />
+    <Item file="E:\主数据库\音乐\Alan Walker - Faded.m4a" tag="File" />
+    <Item file="E:\Program Files\校园铃声音乐\music\5COMBOX.MID" tag="File" />
+  </Item>
+  <Item name="我喜欢">
+    <Item file="E:\主数据库\音乐\K.Will - 말해! 뭐해？.mp3" tag="File" />
+    <Item file="E:\主数据库\音乐\Shakira - Try Everything.mp3" tag="File" />
+    <Item file="E:\主数据库\音乐\t.A.T.u. - Loves Me Not.mp3" tag="File" />
+    <Item file="E:\主数据库\音乐\陈奕迅 - 淘汰.mp3" tag="File" />
+    <Item file="E:\主数据库\音乐\纯音乐 - 疯狂赛车主题音乐澎湃着引擎的声音.mp3" tag="File" />
+    <Item file="E:\主数据库\音乐\林俊杰 - 背对背拥抱.mp3" tag="File" />
+    <Item file="E:\主数据库\音乐\林俊杰、G.E.M. 邓紫棋 - 手心的蔷薇.mp3" tag="File" />
+    <Item file="E:\主数据库\音乐\鹿晗－勋章.mp3" tag="File" />
+    <Item file="E:\主数据库\音乐\许嵩 - 幻听.mp3" tag="File" />
+    <Item file="E:\主数据库\音乐\许巍 - 蓝莲花.mp3" tag="File" />
+    <Item file="E:\主数据库\音乐\薛之谦 - 刚刚好.mp3" tag="File" />
+    <Item file="E:\主数据库\音乐\薛之谦 - 绅士.mp3" tag="File" />
+    <Item file="E:\主数据库\音乐\薛之谦 - 深深爱过你（今生）.mp3" tag="File" />
+    <Item file="E:\主数据库\音乐\薛之谦 - 深深爱过你（前世）.mp3" tag="File" />
+  </Item>
+</Lists>

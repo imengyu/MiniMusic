@@ -1,0 +1,8 @@
+E:\主数据库\编程\方案\MusicPlayer\MusicPlayer.Plugins\bin\x86\Debug\MusicPlayer.Plugins.dll
+E:\主数据库\编程\方案\MusicPlayer\MusicPlayer.Plugins\bin\x86\Debug\MusicPlayer.Plugins.pdb
+E:\主数据库\编程\方案\MusicPlayer\MusicPlayer.Plugins\bin\x86\Debug\LayeredSkin.dll
+E:\主数据库\编程\方案\MusicPlayer\MusicPlayer.Plugins\bin\Debug\MusicPlayer.Plugins.dll
+E:\主数据库\编程\方案\MusicPlayer\MusicPlayer.Plugins\bin\Debug\MusicPlayer.Plugins.pdb
+E:\主数据库\编程\方案\MusicPlayer\MusicPlayer.Plugins\bin\Debug\LayeredSkin.dll
+E:\主数据库\编程\方案\MusicPlayer\MusicPlayer.Plugins\obj\x86\Debug\MusicPlayer.Plugins.dll
+E:\主数据库\编程\方案\MusicPlayer\MusicPlayer.Plugins\obj\x86\Debug\MusicPlayer.Plugins.pdb
