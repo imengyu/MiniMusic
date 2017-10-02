@@ -16,8 +16,8 @@ namespace MusicPlayer
         [STAThread]
         static void Main(string[] agrs)
         {
-            try
-            {
+            //try
+            //{
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
 
@@ -264,9 +264,11 @@ namespace MusicPlayer
                         }
                     }
                 }
-            }
-            catch (Exception ee)
-            {
+            //}
+            //catch (Exception ee)
+            /*{
+                if (Debugger.IsAttached)
+                    throw ee;
                 MessageBox.Show("迷你音乐遇到错误需要关闭，给您带来不便深表歉意。", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 WriteLog(ee.Message, DateTime.Now.ToString(), ee.ToString());
                 string time = Application.StartupPath + @"\MusicPlayerError_log_" + DateTime.Now.Minute + ".log";
@@ -280,7 +282,7 @@ namespace MusicPlayer
                 sw.WriteLine(ee.ToString());
                 sw.Close();
                 Process.Start(Application.StartupPath + @"\MusicPlayer.exe", "-errorrestart " + System.IO.Path.GetFileName(time));
-            }
+            }*/
         }
         [System.Runtime.InteropServices.DllImport("shell32.dll")]
         public static extern void SHChangeNotify(uint wEventId, uint uFlags, IntPtr dwItem1, IntPtr dwItem2);

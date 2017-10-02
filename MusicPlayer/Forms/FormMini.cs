@@ -149,7 +149,7 @@ namespace MusicPlayer
             pl_base.DUIControls.Add(pic);
             pl_base.DUIControls.Add(pl_ctrl);
 
-            
+            pic.BackgroundImage = m.Alboum;
         }
 
         private void Traack_MouseClick(object sender, DuiMouseEventArgs e)

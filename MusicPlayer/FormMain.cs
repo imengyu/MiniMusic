@@ -1798,6 +1798,7 @@ namespace MusicPlayer
                 if (b != null)
                 {
                     musicList1.SetIsPlayingAb(file, b);
+                    abmpx = new Bitmap(b);
                 }
                 
             }
@@ -2621,9 +2622,9 @@ namespace MusicPlayer
                 }
                 else
                 {
-                    if (playingmidi)
                     abmpx = null;
                     musicList1.SetIsPlaying(musicList1.IsPlaying, musicList1.IsPlayingList, 0);
+                    
                     Bass.BASS_ChannelStop(stream);
                     Bass.BASS_StreamFree(stream);
                     stream = Bass.BASS_StreamCreateFile(file, 0L, 0L, BASSFlag.BASS_SAMPLE_FLOAT);
@@ -2650,13 +2651,9 @@ namespace MusicPlayer
                                 musicList1.AddItem(file, "默认列表", true);
                                 musicList1.SetIsPlaying(file, "默认列表", 1);
                             }
-                            else
-                            {
-                                musicList1.SetIsPlaying(file, "默认列表", 1);
-                            }
+                            else musicList1.SetIsPlaying(file, "默认列表", 1);
                         }
-                        else
-                            musicList1.SetIsPlaying(file, listname, 1);
+                        else musicList1.SetIsPlaying(file, listname, 1);
                         btn_playpause.Checked = true;
                         string a = Path.GetFileNameWithoutExtension(file);
                         lb_playing.Text = a;
@@ -2681,8 +2678,8 @@ namespace MusicPlayer
                         AutoPlayName = file;
                     }
                 }
-
-                Itext1 = musicList1.FindItemByName(file, listname).Name;
+                if (listname == "") listname = "默认列表";
+                 Itext1 = musicList1.FindItemByName(file, listname).Name;
                 Itext2 = musicList1.FindItemByName(file, listname).Singer;
 
             }

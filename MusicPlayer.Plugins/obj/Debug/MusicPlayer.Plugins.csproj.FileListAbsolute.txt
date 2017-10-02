@@ -21,3 +21,12 @@ E:\主数据库\编程\方案\MiniMusicXp\MusicPlayer.Plugins\obj\Debug\MusicPla
 E:\主数据库\编程\方案\MiniMusicXp\MusicPlayer.Plugins\obj\Debug\MusicPlayer.Plugins.pdb
 E:\主数据库\编程\方案\MiniMusicXp\MusicPlayer\bin\Debug\MusicPlayer.Plugins.dll
 E:\主数据库\编程\方案\MiniMusicXp\MusicPlayer\bin\Debug\MusicPlayer.Plugins.pdb
+E:\主数据库\编程\方案7\MiniMusic\MusicPlayer\bin\Debug\MusicPlayer.Plugins.dll
+E:\主数据库\编程\方案7\MiniMusic\MusicPlayer\bin\Debug\MusicPlayer.Plugins.pdb
+E:\主数据库\编程\方案7\MiniMusic\MusicPlayer.Plugins\obj\Debug\MusicPlayer.Plugins.csprojResolveAssemblyReference.cache
+E:\主数据库\编程\方案7\MiniMusic\MusicPlayer.Plugins\obj\Debug\MusicPlayer.Plugins.Button.resources
+E:\主数据库\编程\方案7\MiniMusic\MusicPlayer.Plugins\obj\Debug\MusicPlayer.Plugins.MenuForm.resources
+E:\主数据库\编程\方案7\MiniMusic\MusicPlayer.Plugins\obj\Debug\MusicPlayer.Plugins.Properties.Resources.resources
+E:\主数据库\编程\方案7\MiniMusic\MusicPlayer.Plugins\obj\Debug\MusicPlayer.Plugins.csproj.GenerateResource.Cache
+E:\主数据库\编程\方案7\MiniMusic\MusicPlayer.Plugins\obj\Debug\MusicPlayer.Plugins.dll
+E:\主数据库\编程\方案7\MiniMusic\MusicPlayer.Plugins\obj\Debug\MusicPlayer.Plugins.pdb

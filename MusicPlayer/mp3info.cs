@@ -1,7 +1,9 @@
-﻿using System;
+﻿using MusicPlayer.Shell;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace MusicPlayer
 {
@@ -51,11 +53,15 @@ namespace MusicPlayer
         private static Mp3Info getMp3Info(string file)
         {
             byte[] Info = getLast128(file);
-
-            
-
             Mp3Info mp3Info = new Mp3Info();
-            mp3Info.MusicLength = TimeToString(TimeSpan.FromMilliseconds(GetAMRFileDuration(file)));
+
+            FileInfo fInfo = new FileInfo(Path.GetFileName(file));
+            ShellClass sh = new ShellClass();
+            Folder dir = sh.NameSpace(Path.GetDirectoryName(file));
+            FolderItem item = dir.ParseName(Path.GetFileName(file));
+            mp3Info.MusicLength = Regex.Match(dir.GetDetailsOf(item, -1), "\\d:\\d{2}:\\d{2}").Value;//获取歌曲时间
+
+            //TimeToString(TimeSpan.FromMilliseconds(GetAMRFileDuration(file)));
             string str = null;
             int i;
             int position = 0;//循环的起始值     

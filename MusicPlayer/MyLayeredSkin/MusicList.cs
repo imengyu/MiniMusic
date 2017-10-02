@@ -737,7 +737,6 @@ namespace MusicPlayer.MyLayeredSkin
                             listx.Visible = true;
                         else
                             listx.Visible = false;
-
                         #endregion
                     }
                     else

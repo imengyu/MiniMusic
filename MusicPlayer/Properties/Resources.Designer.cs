@@ -2703,6 +2703,16 @@ namespace MusicPlayer.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap minimusiclogo {
+            get {
+                object obj = ResourceManager.GetObject("minimusiclogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap music_move {
             get {
                 object obj = ResourceManager.GetObject("music_move", resourceCulture);
@@ -2716,6 +2726,16 @@ namespace MusicPlayer.Properties {
         internal static System.Drawing.Bitmap musicintroc {
             get {
                 object obj = ResourceManager.GetObject("musicintroc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap musicplayer {
+            get {
+                object obj = ResourceManager.GetObject("musicplayer", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
